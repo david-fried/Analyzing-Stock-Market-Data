@@ -16,3 +16,15 @@ Demonstrated knowledge of VBA:
    Nested for loops and conditionals
    Conditional Formatting
   
+Code Snippet:
+   For i = 2 To Rows.Count 'Looping thru rows
+        If Cells(i, 11).Value <> "N/A" Then
+            If Cells(i, 11).Value > GreatestP Then
+                GreatestP = Cells(i, 11).Value
+                GreatestP_Ticker = Cells(i, 9).Value
+            ElseIf Cells(i, 11).Value < LeastP Then
+                LeastP = Cells(i, 11).Value
+                LeastP_Ticker = Cells(i, 9).Value
+            End If
+        End If
+    Next i
