@@ -1,4 +1,4 @@
-# VBA-Challenge
+VBA-Challenge
 
 David Fried
 Data Science Bootcamp
