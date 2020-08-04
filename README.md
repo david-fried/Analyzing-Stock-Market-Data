@@ -1,6 +1,6 @@
 ## Using VBA to Analyze Stock Market Data
 
-This script loops through each worksheet (i.e., year) and does the following:
+This script loops through each Excel worksheet (i.e., year) and does the following:
 - Creates table that displays ticker data aggregated over a year. Specifically, for each ticker table contains:
      - Ticker: Symbol of the ticker.
      - Yearly Change: Difference between the closing price at the end of the year and the opening price at the beginning of the year.
@@ -8,7 +8,7 @@ This script loops through each worksheet (i.e., year) and does the following:
      - Total Stock Volume: The total volume of the stock.
 - Creates second table that returns the stock with the "Greatest % increase", "Greatest % decrease," and "Greatest total volume".
 
-**Note:** Excel data file not included.
+**Note:** Excel data not included.
 
 ### Code Snippet:
          For i = 2 To Rows.Count 'Looping thru rows
