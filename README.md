@@ -1,9 +1,5 @@
-VBA-Challenge
+## Using VBA to Produce Stock Market Data
 
-David Fried
-Data Science Bootcamp
-6/15/2020
-vba-challenge
 This script loops through each worksheet (i.e., year) and does the following:
    Creates table that displays ticker data aggregated over a year. Specifically, for each ticker table contains-
        Ticker: Symbol of the ticker.
@@ -16,15 +12,15 @@ Demonstrated knowledge of VBA:
    Nested for loops and conditionals
    Conditional Formatting
   
-Code Snippet:
-   For i = 2 To Rows.Count 'Looping thru rows
-        If Cells(i, 11).Value <> "N/A" Then
-            If Cells(i, 11).Value > GreatestP Then
-                GreatestP = Cells(i, 11).Value
-                GreatestP_Ticker = Cells(i, 9).Value
-            ElseIf Cells(i, 11).Value < LeastP Then
-                LeastP = Cells(i, 11).Value
-                LeastP_Ticker = Cells(i, 9).Value
-            End If
-        End If
-    Next i
+      Code Snippet:
+         For i = 2 To Rows.Count 'Looping thru rows
+              If Cells(i, 11).Value <> "N/A" Then
+                  If Cells(i, 11).Value > GreatestP Then
+                      GreatestP = Cells(i, 11).Value
+                      GreatestP_Ticker = Cells(i, 9).Value
+                  ElseIf Cells(i, 11).Value < LeastP Then
+                      LeastP = Cells(i, 11).Value
+                      LeastP_Ticker = Cells(i, 9).Value
+                  End If
+              End If
+          Next i
