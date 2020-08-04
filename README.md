@@ -1,4 +1,4 @@
-## Using VBA to Produce Stock Market Data
+## Using VBA to Analyze Stock Market Data
 
 This script loops through each worksheet (i.e., year) and does the following:
 - Creates table that displays ticker data aggregated over a year. Specifically, for each ticker table contains:
