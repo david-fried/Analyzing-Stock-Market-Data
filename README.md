@@ -8,6 +8,8 @@ This script loops through each worksheet (i.e., year) and does the following:
      - Total Stock Volume: The total volume of the stock.
 - Creates second table that returns the stock with the "Greatest % increase", "Greatest % decrease," and "Greatest total volume".
 
+**Excel data file not included.
+
 ### Code Snippet:
          For i = 2 To Rows.Count 'Looping thru rows
               If Cells(i, 11).Value <> "N/A" Then
@@ -20,3 +22,6 @@ This script loops through each worksheet (i.e., year) and does the following:
                   End If
               End If
           Next i
+
+### Example of Worksheet After Running Code File
+![Stock Prices](VBAStocks/StockChallenge(2016).PNG)
