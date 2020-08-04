@@ -8,7 +8,7 @@ This script loops through each worksheet (i.e., year) and does the following:
      - Total Stock Volume: The total volume of the stock.
 - Creates second table that returns the stock with the "Greatest % increase", "Greatest % decrease," and "Greatest total volume".
 
-      Code Snippet:
+### Code Snippet:
          For i = 2 To Rows.Count 'Looping thru rows
               If Cells(i, 11).Value <> "N/A" Then
                   If Cells(i, 11).Value > GreatestP Then
