@@ -24,4 +24,4 @@ This script loops through each Excel worksheet (i.e., year) and does the followi
           Next i
 
 ### Example of Worksheet After Running Code File
-![Stock Prices](VBAStocks/StockChallenge(2016).PNG)
+![Stock Prices](images/Stock(2016).PNG)
